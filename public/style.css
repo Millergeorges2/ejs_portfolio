@@ -1,0 +1,118 @@
+#index{
+    background-image: url('https://wallpapercave.com/wp/O8P2P12.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#index::before{
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .5);
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+#contact{
+    background-image: url('https://i.pinimg.com/originals/0b/aa/3d/0baa3ddc5215c2de9d575f89d4ab439a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#contact::before{
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .5);
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+#thanks{
+    background-image: url('https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-30.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#thanks::before{
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .5);
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+#header{
+    font-family: "Questrial";
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    font-family: "Questrial";
+    font-size: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+input{
+    margin: auto;
+    font-family: "Questrial";
+    font-size: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+#submit{
+    display: block;
+    margin-top: 20px;
+}
+
+label{
+    font-family: "Questrial";
+    font-size: 20px;
+    margin-top: 40px;    
+}
+
+#firstNameInput{
+    margin-top: 20px;
+}
+
+#lastNameLabel{
+    margin-top: 20px;
+}
+
+#emailLabel{
+    margin-top: 20px;
+}

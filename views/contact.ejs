@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title> Contact Me! </title>
+    <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="contact">
+    <div>
+        <form action="/thanks" method="POST">
+            <label for="firstName">First Name:</label>
+            <input id="firstNameInput" name="firstName" type="text">
+
+            <div id="lastNameLabel">
+                <label for="lastName">Last Name:</label>
+                <input name="lastName" type="text">
+            </div>
+
+            <div id="emailLabel">
+                <label for="email">Email:</label>
+                <input name="email" type="text">
+            </div>
+
+            <a href="http://localhost:8080/thanks"><input id="submit" type="submit" /></a>
+        </form>
+    </div>
+</body>
+
+</html>
